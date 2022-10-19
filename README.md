@@ -1,24 +1,56 @@
-# README
+# React Rails app
+> A 'Hello, world!" app
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Link to React App
+https://github.com/Daf98/Hello-React-Frontend/pull/1
 
-Things you may want to cover:
+## Built With
+- Ruby
+- Rails
 
-* Ruby version
+## Getting Started
+To get a local copy, follow these simple steps.
 
-* System dependencies
+### Prerequisites
+You should have ruby installed in your machine, you can follow the steps given by the official documentation.
 
-* Configuration
+You should have a postgres user with superuser permissions. you can refer to the official postgres documentation to create or update a role.
 
-* Database creation
+Setup
+First, you must clone this repository locally running this command:
 
-* Database initialization
+git clone git@github.com:repo to clone
+Install
+Once inside the project directory, you should install all project dependencies:
 
-* How to run the test suite
+Install bundler:
+gem install bundler
+Install project dependencies
+bundle install
+npm install
+yarn build
+Usage
+You can get the app running locally by opening a local server:
 
-* Services (job queues, cache servers, search engines, etc.)
+./bin/dev
+## Author
 
-* Deployment instructions
+👤 **Dafne Azzolina**
 
-* ...
+- GitHub: [@Daf98](https://github.com/Daf98)
+- Twitter: [@dafne_azzolina](https://twitter.com/dafne_azzolina)
+- LinkedIn: [dafne-azzolina](https://www.linkedin.com/in/dafne-azzolina/)
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
