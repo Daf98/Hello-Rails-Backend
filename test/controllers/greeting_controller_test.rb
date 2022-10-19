@@ -1,7 +1,7 @@
-require "test_helper"
+require 'test_helper'
 
 class GreetingControllerTest < ActionDispatch::IntegrationTest
-  test "should get message" do
+  test 'should get message' do
     get greeting_message_url
     assert_response :success
   end
